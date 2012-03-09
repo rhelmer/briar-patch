@@ -126,4 +126,24 @@ Dependencies
     internal RelEng lib (currently no home)
 
   Paramiko
-    
+    This project will use vagrant and puppet to 
+install a complete Briar Patch (https://github.com/mozilla/briar-patch)
+environment in a local VM.
+
+---
+INSTALL
+---
+
+1) Install http://www.virtualbox.org/
+
+2) Install and run vagrant (http://vagrantup.com/) :
+
+ gem install vagrant
+ cd vagrant
+ vagrant up
+
+3) Enjoy your Briar Patch environment!
+
+SSH into your VM:
+ vagrant ssh
+
